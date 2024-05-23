@@ -28,5 +28,5 @@ This repository contains a setup script to integrate AWS Deadline Cloud with Key
 If you encounter any issues during the setup process, refer to the log file located at ~/Documents/setup_deadline_keyshot_debug.log for detailed information.
 
 # Acknowledgements
-This script is based on the [AWS Deadline Cloud for KeyShot] (https://github.com/aws-deadline/deadline-cloud-for-keyshot) project.
+This script is based on the [AWS Deadline Cloud for KeyShot](https://github.com/aws-deadline/deadline-cloud-for-keyshot) project.
 
