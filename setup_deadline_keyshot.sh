@@ -141,7 +141,17 @@ source ~/.zshrc
 
 # Launch KeyShot
 echo "Launching KeyShot..."
-open /Applications/KeyShot12.app
+
+# Use the detected KeyShot version
+KEYSHOT_APP="/Applications/$KEYSHOT_VERSION.app"
+
+if [ ! -d "$KEYSHOT_APP" ]; then
+    echo "Error: KeyShot application not found at $KEYSHOT_APP!"
+    exit 1
+fi
+
+echo "KeyShot application found at: $KEYSHOT_APP"
+open "$KEYSHOT_APP"
 
 echo "Installation complete. Please restart KeyShot to use the AWS Deadline Cloud submission script."
 
