@@ -41,12 +41,6 @@ fi
 echo "KeyShot version detected: $KEYSHOT_VERSION"
 KEYSHOT_SCRIPTS_DIR="/Library/Application Support/$KEYSHOT_VERSION/Scripts/"
 
-# Check if pip3 is installed
-if ! command -v pip3 &> /dev/null; then
-    echo "Error: pip3 is not installed. Please install it before running this script."
-    exit 1
-fi
-
 # Install necessary packages
 echo "Installing deadline-cloud-for-keyshot, deadline[gui], and PySide6 packages..."
 if ! pip3 install deadline-cloud-for-keyshot 'deadline[gui]' PySide6; then
