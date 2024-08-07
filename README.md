@@ -1,7 +1,14 @@
-# AWS Deadline Cloud for KeyShot - macOS Setup Script
+# **Scripted Tool for AWS Rendering Kick-Start**
+## **Deadline Cloud for KeyShot on macOS**
 
-This repository contains a setup script to integrate AWS Deadline Cloud with KeyShot on macOS. The script ensures that all necessary packages are installed and the environment is configured correctly.
+STARK-DC automates the integration of AWS Deadline Cloud with KeyShot on macOS, streamlining the setup to allow users to quickly begin leveraging cloud-based rendering capabilities.
 
+## Features
+
+- Streamlines installation and configuration of required components
+- Automates the setup process for AWS Deadline Cloud integration
+- Enables quick deployment of cloud-based rendering capabilities
+- Optimized for KeyShot on macOS environments
 ## Features
 
 - Automatically detects the installed KeyShot version.
